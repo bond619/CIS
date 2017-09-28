@@ -1,8 +1,24 @@
 <html>
 <title> this is a title. </title>
 
-<head> hello </head>
+<head> 
+hello
+
+<style>
+
+body {
+background-color: red;
+}
+</style>
+
+</head>
 
 <body> this is a body tag </body>
+
+
+
+
+
+
 
 </html>

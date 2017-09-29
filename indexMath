@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+body {
+text-align: center;
+background-color: green;
+}
+
+    </style>
+
+    </head>
+    <body>
+        Enter in a number to be squared
+            <br>
+            <br>
+            <div id="sqa">
+            <input type="text" id="square"  />
+            <button onclick=squareNumber() >Try it</button> 
+            
+            </div>
+            
+       
+        <script>
+            function squareNumber() { // the function 
+                var h = document.getElementById('square').value; // the value
+                var square = h * h;
+                document.write(square);
+                return h;
+            }
+        </script>
+
+        <br>
+<br>
+<br>
+<br>
+Enter in a number to be halfed
+        <div id="hal">
+            <input type="text" id="half" />
+        <button onclick=halfNumber() >Try it</button> 
+        </div>
+        <script>
+            function halfNumber() {
+                var j = document.getElementById('half').value; // the value
+                var half = j / 2;
+                document.write(half);
+            }
+        </script>
+        <br>
+        <br>
+        <br>
+        <br>
+        Enter in two numbers to find percentages
+        <div id="per" >
+            <input type="text" id="percent"  />
+            <br>
+            <input type="text" id="percentTwo" /> 
+                <button onclick=percentOf() >Try it</button> 
+        </div>
+        <script>
+            function percentOf() {
+                var one = document.getElementById('percent').value; // the value
+                var two = document.getElementById('percentTwo').value;
+                var holder = one / two;
+                var final = holder * 100;
+                document.write(one + ' is '+ final + '% ' + 'of ' + two);
+            }
+
+        </script>
+        <br>
+        <br>
+        <br>
+        Enter in a number to find the Area
+        <div id="areaOf">
+            <input type="text" id="cir"/>
+               <button onclick=areaOfCircle() >Try it</button> 
+        </div>
+        <script>
+            function areaOfCircle() {
+                var l = document.getElementById('cir').value; // the value
+                var area = 3.14 * (l*l);
+                document.write(area);
+            }
+         
+        </script>
+
+    
+
+
+
+
+    </body>
+</html>

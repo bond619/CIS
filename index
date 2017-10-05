@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -12,6 +14,9 @@ and open the template in the editor.
 
         <style>
 body {
+
+
+<a href ="newindex.html" </a>
 text-align: center;
 background-color: green;
 }

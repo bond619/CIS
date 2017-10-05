@@ -34,8 +34,20 @@ and open the template in the editor.
     </div>
     <div class="card-container-bl">
         <div class="card">
-            <div class="side"> App Interface</div>
-            <div class="side back">links <a href="index.html"> </a>  </div>
+            <div class="side"> Basic JavaScript</div>
+            <div class="side back">links <a href="basicJS.html"> </a>  </div>
         </div>
     </div>
     
+    
+    
+    
+    
+    
+    
+    
+    
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>

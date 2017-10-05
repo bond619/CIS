@@ -1,0 +1,94 @@
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+}
+.card-container-tr {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: fixed;
+  width: 150px;
+  top: 200px;
+  left:700px;
+  background-color: red;
+}
+.card-container-tl {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: fixed;
+  width: 150px;
+  top: 200px;
+  left:400px;
+  background-color: red;
+}
+.card-container-br {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: fixed;
+  width: 150px;
+  top: 400px;
+  left:700px;
+  background-color: red;
+}
+.card-container-bl {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: fixed;
+  width: 150px;
+  top: 400px;
+  left:400px;
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+.center {
+    margin: 50px;
+    width: 20%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}

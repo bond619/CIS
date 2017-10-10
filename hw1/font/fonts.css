@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+body  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+body {
+    border: 1px solid red;
+    padding: 30px;
+}

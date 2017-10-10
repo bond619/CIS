@@ -1,0 +1,91 @@
+
+
+
+
+
+.big-box {
+  display: flex;
+justify-content: flex-start; 
+background: grey;
+border: 1px solid #0000cc;
+  width: 1900px;
+height: 1000px;
+ position: fixed;
+    top: 0;
+    left: 0;
+  
+}
+
+.little-box {
+  border: 1px solid #000;  /* For debugging */
+ border-radius: 10px;
+height: 717px;
+justify-content: center;
+background:white;
+ position: fixed;
+    top: 0;
+    left: 0;
+    width: 414px;
+
+}
+
+
+.head {
+  width: 414px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ffffff;
+padding-top: 20px;
+
+} 
+#banner {
+    text-align: center;
+    font-size: 250%;
+        padding-bottom: 20px;
+   
+}
+
+
+.idBox {
+ border: 1px solid gray;
+   border-radius: 5px;
+  width: 414px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+    border-bottom: none;
+}
+.passwordBox {
+  border: 1px solid gray;
+border-top: none;
+
+   border-radius: 5px;
+  width: 410px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+} 
+
+.sign {
+width: 410px;
+height: 200px;
+justify-content: center;
+text-align: center;
+    font-size: 250%;
+}
+#lost {
+    text-align: center;
+    font-size: 150%;
+    color: lawngreen;
+    
+       margin-bottom: 50px;
+}
+#log {
+   
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top: none;
+    padding-left: 20px;
+
+}
